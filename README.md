@@ -1,12 +1,13 @@
 ```
-<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>  
-  <div>7</div>
-  <div>8</div>
-</div>
+ ` npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css`
+```
+```
+` npm init -y`
+```
+```
+` npm install -D tailwindcss postcss autoprefixer vite`
+```
+> ~ change scripts "dev": "vite"
+
+ `npx tailwindcss init -p`
 ```
