@@ -1,13 +1,13 @@
 ```
- ` npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css`
+npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
 ```
 ```
-` npm init -y`
+npm init -y
 ```
 ```
-` npm install -D tailwindcss postcss autoprefixer vite`
+npm install -D tailwindcss postcss autoprefixer vite
 ```
 > ~ change scripts "dev": "vite"
-
- `npx tailwindcss init -p`
+```
+npx tailwindcss init -p
 ```
