@@ -1,28 +1,28 @@
+# Before start your project follow this content 
+> create `HTML` , `CSS` & `JS` file properly
+
+* then your custome `tailwind.css` file add this code
 ```
-npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
+* And open your Terminal and wright this line
 ```
-npm init -y
+npx tailwindcss-cli build css/custome-tailwind.css -o build/tailwind.css
 ```
+* add thispostcss autoprefixer line 
 ```
-npm install -D tailwindcss postcss autoprefixer vite
+npm install -D tailwindcss postcss autoprefixer
 ```
-> ~ change scripts "dev": "vite"
+> change script locaion this path `"dev": "vite"`
+
 ```
 npx tailwindcss init -p
 ```
-----
+* Then delete `build/tailwind.css` file before `npm run dev`
 
+* Live server
 ```
-npm init -y
-```
-```
-npm i -D tailwindcss
-```
-```
-npx tailwindcss init
-```
-
-```
-tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css -w
+npm run dev
 ```
