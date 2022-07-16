@@ -11,3 +11,18 @@ npm install -D tailwindcss postcss autoprefixer vite
 ```
 npx tailwindcss init -p
 ```
+----
+
+```
+npm init -y
+```
+```
+npm i -D tailwindcss
+```
+```
+npx tailwindcss init
+```
+
+```
+tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css -w
+```
