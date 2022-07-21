@@ -20,6 +20,13 @@ npm install -D tailwindcss postcss autoprefixer
 ```
 npx tailwindcss init -p
 ```
+~ prettier autoprefiex install
+```
+npm install -D prettier 
+```
+```
+npx prettier index.html --write
+```
 * Then delete `build/tailwind.css` file before `npm run dev`
 
 * Live server
