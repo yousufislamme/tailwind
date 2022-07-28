@@ -7,6 +7,10 @@
 @tailwind components;
 @tailwind utilities;
 ```
+* run this code
+`````
+npx tailwindcss init
+`````
 * And open your Terminal and wright this line
 ```
 npx tailwindcss-cli build css/custome-tailwind.css -o build/tailwind.css
