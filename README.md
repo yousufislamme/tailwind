@@ -9,7 +9,7 @@
 ```
 * run this code
 `````
-npx tailwindcss init
+npx tailwindcss -y
 `````
 * And open your Terminal and wright this line
 ```
