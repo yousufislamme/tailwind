@@ -14,7 +14,7 @@ npx tailwindcss init
 ```
 * run this code
 `````
-npx tailwindcss -y
+npm init -y
 `````
 * And open your Terminal and wright this line
 ```
