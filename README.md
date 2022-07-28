@@ -20,7 +20,7 @@ npm init -y
 ```
 npx tailwindcss-cli build css/custome-tailwind.css -o build/tailwind.css
 ```
-*install vite
+* install vite
 ```
 npm i vite
 ```
