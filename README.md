@@ -20,6 +20,10 @@ npm init -y
 ```
 npx tailwindcss-cli build css/custome-tailwind.css -o build/tailwind.css
 ```
+*install vite
+```
+npm i vite
+```
 
 > change script locaion this path `"dev": "vite"`
 
