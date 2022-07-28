@@ -1,6 +1,11 @@
 # Before start your project follow this content 
 > create `HTML` , `CSS` & `JS` file properly
+* add thispostcss autoprefixer line 
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
 
+```
 * then your custome `tailwind.css` file add this code
 ```
 @tailwind base;
@@ -15,10 +20,7 @@ npx tailwindcss -y
 ```
 npx tailwindcss-cli build css/custome-tailwind.css -o build/tailwind.css
 ```
-* add thispostcss autoprefixer line 
-```
-npm install -D tailwindcss postcss autoprefixer
-```
+
 > change script locaion this path `"dev": "vite"`
 
 ```
